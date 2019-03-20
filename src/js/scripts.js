@@ -22,8 +22,8 @@ randomBG();
 
 function header(){
 
-	var dati = ["Beatrice Gorelli", "beatrice.gorelli@gmail.com", "mi piace il rosso"];
-	//var dati = ["Stiamo lavorando per voi !!!!! :) "];
+	//var dati = ["Beatrice Gorelli", "beatrice.gorelli@gmail.com", "mi piace il rosso"];
+	var dati = ["Stiamo lavorando per voi !!!!! :) "];
 	var selezione = Math.floor(Math.random()*dati.length);
 	
 	document.querySelector(".dati").textContent = dati[selezione];
